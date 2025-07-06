@@ -1,4 +1,3 @@
-// frontend/src/nodes/FileUploadNode.js
 import { BaseNode } from './BaseNode';
 
 export const FileUploadNode = ({ id }) => (

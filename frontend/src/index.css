@@ -44,13 +44,73 @@ code {
   font-size: 14px;
   transition: all 0.2s ease;
   border-color: #7E64D5;
-  color: #7E64D5;
+  color: #ffffff;
+  background: #020104;
   height: 35px;
-  width: 80px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   border-radius: 7px;
   margin-top: 8px;
 
+}
 
+.llm-box {
+  background-color: transparent;
+  border: 2px solid;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border-color: #7E64D5;
+  background: #020104;
+  color: #ffffff;
+  border-radius: 7px;
+  height: 35px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.react-flow__controls {
+  background: #230C59;
+  border: 1px solid;
+  border-color: #BEA5FF;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.react-flow__controls button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+
+.react-flow__controls button:hover {
+  background: white;
+  color: #000000;
+  border-radius: 8px;
+}
+
+.react-flow__controls button svg {
+  fill: #BEA5FF;
+}
+
+.react-flow .react-flow__minimap {
+  background: radial-gradient(circle, #17073e, #020104);
+  border: 2px solid #7E64D5;
+}
+
+.react-flow .react-flow__minimap-node {
+  fill: #381d76;
+
+}
+
+.react-flow .react-flow__minimap-mask {
+  fill: #230C59;
 }

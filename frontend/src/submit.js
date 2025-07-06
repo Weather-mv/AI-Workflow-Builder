@@ -1,6 +1,5 @@
 export const submitPipeline = async (nodes, edges) => {
   try {
-    // Filter only relevant data
     const payload = {
       nodes: nodes.map(node => ({
         id: node.id,

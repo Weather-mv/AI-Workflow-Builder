@@ -1,4 +1,3 @@
-// Updated BaseNode.js
 import { Handle, Position } from 'reactflow';
 
 const nodeStyles = {

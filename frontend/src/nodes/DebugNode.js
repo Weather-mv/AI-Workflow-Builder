@@ -1,4 +1,3 @@
-// frontend/src/nodes/DebugNode.js
 import { BaseNode } from './BaseNode';
 
 export const DebugNode = ({ id }) => (

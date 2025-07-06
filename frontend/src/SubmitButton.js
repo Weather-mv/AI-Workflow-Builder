@@ -27,6 +27,10 @@ export const SubmitButton = () => {
     <button 
       onClick={handleSubmit}
       style={{
+        height:'50px',
+        width:'100px',
+        fontSize:'20px',
+        fontWeight:'600',
         padding: '8px 16px',
         background: '#4f46e5',
         color: 'white',
@@ -34,12 +38,12 @@ export const SubmitButton = () => {
         borderRadius: '4px',
         cursor: 'pointer',
         position: 'absolute',
-        right: '20px',
-        bottom: '20px',
+        right: '45%',
+        bottom: '50px',
         zIndex: 10
       }}
     >
-      Analyze Pipeline
+      Submit
     </button>
   );
 };

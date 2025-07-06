@@ -1,7 +1,6 @@
-// frontend/src/nodes/textNode.js
 import { useState, useEffect, useRef } from 'react';
 import { Handle, Position } from 'reactflow';
-import { BaseNode } from './BaseNode';
+import { BaseNode } from '../nodes/BaseNode';
 
 export const TextNode = ({ id, data }) => {
   const [text, setText] = useState(data?.text || '{{input}}');
@@ -43,8 +42,9 @@ export const TextNode = ({ id, data }) => {
           minHeight: '60px',
           resize: 'none',
           border: '1px solid #e2e8f0',
+          color:'white',
           borderRadius: '4px',
-          padding: '8px',
+          background:'transparent'
         }}
         placeholder="Enter text with {{variables}}..."
       />

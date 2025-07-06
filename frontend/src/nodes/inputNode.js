@@ -1,4 +1,3 @@
-// frontend/src/nodes/inputNode.js
 import { useState } from 'react';
 import { BaseNode } from './BaseNode';
 
@@ -15,6 +14,7 @@ export const InputNode = ({ id, data }) => {
       
       title="Input"
       outputHandles={[{ id: 'value' }]}
+
     >
       <div className='base-node'>
         <label>

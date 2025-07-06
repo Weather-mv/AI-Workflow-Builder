@@ -1,4 +1,3 @@
-// frontend/src/nodes/MathNode.js
 import { BaseNode } from './BaseNode';
 
 export const MathNode = ({ id }) => (

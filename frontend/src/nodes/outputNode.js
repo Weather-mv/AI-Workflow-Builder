@@ -1,4 +1,3 @@
-// frontend/src/nodes/outputNode.js
 import { useState } from 'react';
 import { BaseNode } from './BaseNode';
 

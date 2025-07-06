@@ -1,4 +1,3 @@
-// frontend/src/nodes/APIRequestNode.js
 import { BaseNode } from './BaseNode';
 
 export const APIRequestNode = ({ id }) => (
