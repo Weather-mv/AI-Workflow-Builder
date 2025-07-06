@@ -12,14 +12,14 @@ export const OutputNode = ({ id, data }) => {
       title="Output"
       inputHandles={[{ id: 'value' }]}
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+      <div className='base-node'>
         <label>
           Name:
-          <input type="text" value={currName} onChange={(e) => setCurrName(e.target.value)} />
+          <input className='input-box' type="text" value={currName} onChange={(e) => setCurrName(e.target.value)} />
         </label>
         <label>
           Type:
-          <select value={outputType} onChange={(e) => setOutputType(e.target.value)}>
+          <select className='type-box' value={outputType} onChange={(e) => setOutputType(e.target.value)}>
             <option value="Text">Text</option>
             <option value="Image">Image</option>
           </select>

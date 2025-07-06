@@ -7,9 +7,8 @@ const nodeStyles = {
     borderRadius: '16px',
     padding: '20px',
     background: 'linear-gradient(360deg, #020104, #230C59)',
-    
     boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-    border: '1px solid #e2e8f0',
+    border: '2px solid #7E64D5',
     fontFamily: 'Inter, sans-serif',
   },
   header: {
@@ -23,8 +22,8 @@ const nodeStyles = {
 
 export const BaseNode = ({ id, title, children, inputHandles = [], outputHandles = [], style = {} }) => {
   return (
-    <div style={{ ...nodeStyles.base, ...style, }}>
-      <div style={nodeStyles.header}>{title}</div>
+    <div className='title' style={{ ...nodeStyles.base, ...style, }}>
+      <div className='title' style={nodeStyles.header}>{title}</div>
       {children}
       
       {inputHandles.map((handle, idx) => (

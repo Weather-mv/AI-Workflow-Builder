@@ -15,7 +15,6 @@ export const InputNode = ({ id, data }) => {
       
       title="Input"
       outputHandles={[{ id: 'value' }]}
-      
     >
       <div className='base-node'>
         <label>

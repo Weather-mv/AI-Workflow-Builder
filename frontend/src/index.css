@@ -16,6 +16,8 @@ code {
 
 .base-node {
   color: #7E64D5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
@@ -28,26 +30,27 @@ code {
   border-color: #7E64D5;
   color: #ffffff;
   border-radius: 7px;
-  height: 20px;
+  height: 15px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
 .type-box {
-
   background-color: transparent;
   border: 2px solid;
   padding: 8px 12px;
   font-size: 14px;
   transition: all 0.2s ease;
   border-color: #7E64D5;
-  color: #ffffff;
+  color: #7E64D5;
   height: 35px;
   width: 80px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
   border-radius: 7px;
+  margin-top: 8px;
+
 
 }
