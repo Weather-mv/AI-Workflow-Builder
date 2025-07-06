@@ -32,7 +32,7 @@ export const SubmitButton = () => {
         fontSize:'20px',
         fontWeight:'600',
         padding: '8px 16px',
-        background: '#4f46e5',
+        background: '#5e27de',
         color: 'white',
         border: 'none',
         borderRadius: '4px',
