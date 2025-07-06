@@ -4,17 +4,18 @@ import { Handle, Position } from 'reactflow';
 const nodeStyles = {
   base: {
     minWidth: '200px',
-    borderRadius: '8px',
-    padding: '12px',
-    backgroundColor: 'white',
+    borderRadius: '16px',
+    padding: '20px',
+    background: 'linear-gradient(360deg, #020104, #230C59)',
+    
     boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
     border: '1px solid #e2e8f0',
     fontFamily: 'Inter, sans-serif',
   },
   header: {
     fontWeight: '600',
-    color: '#334155',
-    borderBottom: '1px solid #f1f5f9',
+    color: '#7E64D5',
+    borderBottom: '1px solidrgb(60, 132, 203)',
     paddingBottom: '8px',
     marginBottom: '12px',
   },
@@ -22,7 +23,7 @@ const nodeStyles = {
 
 export const BaseNode = ({ id, title, children, inputHandles = [], outputHandles = [], style = {} }) => {
   return (
-    <div style={{ ...nodeStyles.base, ...style }}>
+    <div style={{ ...nodeStyles.base, ...style, }}>
       <div style={nodeStyles.header}>{title}</div>
       {children}
       

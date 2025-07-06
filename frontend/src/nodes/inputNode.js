@@ -12,17 +12,19 @@ export const InputNode = ({ id, data }) => {
   return (
     <BaseNode 
       id={id}
+      
       title="Input"
       outputHandles={[{ id: 'value' }]}
+      
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+      <div className='base-node'>
         <label>
           Name:
-          <input type="text" value={currName} onChange={handleNameChange} />
+          <input className='input-box' type="text" value={currName} onChange={handleNameChange} />
         </label>
         <label>
           Type:
-          <select value={inputType} onChange={handleTypeChange}>
+          <select className='type-box' value={inputType} onChange={handleTypeChange}>
             <option value="Text">Text</option>
             <option value="File">File</option>
           </select>
